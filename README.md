@@ -23,7 +23,7 @@ C'est donc le moment de faire preuve de créativité! Démontrez votre savoir-fa
  Dans ce projet final, l'objectif est de rémontrer que vous avez assimilé toutes les compétences vues dans les projets précédents de ce parcours. Vous devrez attester de votre degré d'autonomie dans l'organisation de votre travail et les choix techniques.
  Pour vous aider à orienter vos choix, voici le détail de certaines des compétences listées ci-après.
  
- --Organiser le code en langage PHP
+ ---Organiser le code en langage PHP
  -Charger automatique des classes ou utilisation de l'autoload de Composer
  -Séparer du code en respectant l'architecture MVC
  -Utiliser des exceptions pour gérer les erreurs.
