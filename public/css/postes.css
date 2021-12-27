@@ -1,0 +1,127 @@
+/**********FONT**********/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/***********INDEX*********/
+.menunav {
+  height: 80px;
+  background-color: white;
+  border-top-right-radius: 44px;
+  border-top-left-radius: 44px;
+  bottom: 0;
+  position: fixed;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.menunav li {
+  list-style-type: none;
+}
+
+.articlesdim {
+  margin-bottom: 18%;
+}
+.menunav img {
+  opacity: 0.6;
+}
+.imgindex {
+  background-color: red;
+  width: 100%;
+}
+
+.postscard {
+  overflow: hidden;
+}
+.card-img {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.card-img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.indextitle {
+  font-size: 18px;
+}
+
+/***********SHOW*********/
+.showimg{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    -webkit-animation-name: showfade;
+    -webkit-animation-duration: 1s;
+    animation-name: showfade;
+    animation-duration: 1s;
+  }
+  @-webkit-keyframes showfade {
+    0% {opacity: .0} 
+    100% {opacity: 1}
+  }
+  @keyframes showfade {
+    0% {opacity: .0} 
+    100% {opacity: 1}
+  }  
+.showtitle{
+    position: absolute;
+    z-index: 15;
+    color:white;
+}
+.showbuttons--edit, .showbuttons--del{
+    width:80%;
+    border-radius: 60px;
+    margin: 10px;
+}
+
+.showcommentbouton{
+    border-radius: 60px;
+    width: 90%;
+    background-color: #ff5b4d;
+}
+.showcommentbouton:hover{
+    background-color: #cc1100;
+}
+.showcomment{
+    position: fixed;
+z-index: 900;
+top: 90%;
+}
+.showcommentctnr{
+    margin-bottom:100px;
+}
+
+
+/*****ADD**********/
+
+.addboutonformulaire{
+    margin-top: 45%;
+    border-radius: 50px;
+    width: 90%;
+    background-color: #000080;
+}
+.addboutonformulaire:hover{
+    background-color: #000033;
+}
+.invalidchck{
+    width: 100%!important;
+}
+
+.postsformulaire > .form-group > .form-control{
+    font-size: 15px;
+}
+
+
+
+/*********ADD COMMENTS*********/
+.addcommentstxt{
+  height: 250px;
+}

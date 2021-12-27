@@ -1,0 +1,112 @@
+@media only screen and (min-width: 576px) { 
+    .container{
+       max-width: 100%;
+    }
+    .addcommentstxt{
+        height: 450px;
+    }
+
+    .addboutonformulaire{
+        margin-top: 20%;
+    }
+
+    .btn {
+        width: 30%;
+    }
+
+    ul > .me-2{
+        margin-left: 30px!important;
+        margin-right: 30px!important;
+    }
+
+    .indextitle{
+        font-size: 22px;
+    }
+    h4{
+        font-weight: 600;
+    }
+
+    .indexbouton{
+     
+        font-size: 20px;
+    }
+    .bouton-lg{
+        margin-left: 30%!important;
+        margin-right: 30%!important;
+    }
+
+    /* about */
+    .cardabout{
+        width: 70%!important;
+    }
+
+
+}
+
+/***********VERSION PC *************/
+@media only screen and (min-width: 1266px) {
+
+    .btn{
+        font-size: 25px;
+        width: 15%;
+    } 
+    .card-body{
+        margin: 30px 70px 30px 70px!important;
+        font-size: 23px!important;
+    }
+    .showcommentctnr{
+        padding: 150px!important;
+    }
+    .text-muted{
+        font-size: 18px!important;
+    }
+    .titrelog{
+        font-size: 40px!important;
+
+    }
+    .indextitle{
+        font-size: 30px!important;
+    }
+    .showtitle > h4 {
+        font-size: 40px;
+    }
+    .ctnrall {
+    padding-left: 50px!important;
+    }
+    input, textarea{
+        font-size: 23px!important;
+    }
+    .cardrspns{
+        padding-left: 20%!important;
+        padding-right: 20%!important;
+    }
+ 
+    .menunav{
+        width: 60%!important;
+        left: 20%!important;
+    }
+    .usercntr{
+        margin-bottom: 15%!important;
+        padding-left: 5%!important;
+    }
+    .bouton-lg{
+        margin-left: 38%!important;
+        margin-right: 42%!important;
+    }
+
+    .logrspns{
+        padding-left: 35%!important;
+        padding-right: 35%!important;
+    }
+    .registerctnr{
+        margin-bottom: 10%!important;
+        padding-left: 5%!important;
+    }
+    .meteotitle{
+        margin-bottom: 7%!important;
+    }
+    .btnabout{
+        width: 30%!important;
+    }
+
+}

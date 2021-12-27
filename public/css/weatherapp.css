@@ -1,0 +1,64 @@
+.colormeteo{
+	background: linear-gradient(-45deg, #23d5ab, #23a6d5, #801ec2, #c71a9379);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.meteoctnr{
+    background-color: white;
+    border-radius: 10px;
+    width:300px;
+    font-family: 'Outfit', sans-serif;
+}
+.weather-container{
+    background-color: rgba(253, 250, 245, 0.972);
+}
+.app-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.app-title p {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+.weather-icon img {
+    width: 128px;
+    height: 128px;
+}
+.temperature-value{
+    font-weight: 800;
+    font-size: 40px;
+}
+.temperature-value span{
+    font-weight: 500;
+    font-size: 20px;
+}
+.notification{
+    background-color: red;
+    height: 30px;
+    margin: 0;
+
+}
+.temperature-value p,.temperature-description p, .location p{
+    margin: 3px 0px 3px 0px ;
+}
+.location p {
+    padding-bottom: 10px;
+}
+.meteotitle{
+    margin-bottom: 35%;
+}
+
+

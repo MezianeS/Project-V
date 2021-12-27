@@ -1,0 +1,51 @@
+.fa-long-arrow-alt-left{
+ font-size: 40px;
+ text-decoration: none;
+ color: black;
+}
+
+.titrelog{
+    font-size: 25px;
+}
+.usercntr{
+    margin-bottom: 40%;
+}
+.userslog{
+    width: 95%;
+
+}
+
+.usersinfo .form-group input {
+    font-size: 16px;
+    background-color: #ffe8e6;
+    border-style: none;
+}
+
+.nolog a{
+    font-size: 13px;
+}
+.bouton-lg{
+    position:absolute;
+    top: 88%;
+    left: 5%;
+    width: 90%;
+    border-radius: 50px;
+    background-color: #ff5b4d;
+    border-style: none;
+}
+.bouton-lg:hover, .bouton-lg:active{
+    background-color: #cc1100;
+}
+
+/** register **/
+.registerctnr{
+    margin-bottom: 30%;
+}
+
+.userregister{
+    width: 90%;
+}
+.userregister .invalid-feedback{
+    font-size: 12px;
+}
+

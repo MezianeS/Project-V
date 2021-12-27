@@ -1,0 +1,17 @@
+.cardabout{
+    border: 0;
+}
+
+.titleabout{
+    font-size: 25px;
+}
+.btnabout{
+    border-radius: 50px;
+    background-color: #ff5b4d;
+    border-style: none;
+    width: 50%;
+}
+
+.btnabout:hover, .btnabout:active{
+    background-color: #cc1100;
+}
